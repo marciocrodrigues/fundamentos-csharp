@@ -1,0 +1,23 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net5.0</TargetFramework>
+    <AssemblyName>FundamentosPooProjPratico</AssemblyName>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="ContentContext\" />
+    <None Remove="ContentContext\Enums\" />
+    <None Remove="NotificationContext\" />
+    <None Remove="SubscriptionContext\" />
+    <None Remove="SharedContext\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="ContentContext\" />
+    <Folder Include="ContentContext\Enums\" />
+    <Folder Include="NotificationContext\" />
+    <Folder Include="SubscriptionContext\" />
+    <Folder Include="SharedContext\" />
+  </ItemGroup>
+</Project>
